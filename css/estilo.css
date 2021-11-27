@@ -191,13 +191,26 @@ p {
 /* FIN HEADER */
 
 /* HERO */
+
 #hero {
-    background-image: url(/imagenes/fondo.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
     z-index: 1;
 }
+
+.notavif.notwebp #hero {
+    background-image: url(../imagenes/fondo.jpg);
+}
+
+.webp #hero {
+    background-image: url(../imagenes/fondo.webp);
+}
+
+.avif #hero {
+    background-image: url(../imagenes/fondo.avif);
+}
+
 #hero::after {
     content: '';
     position: absolute;
