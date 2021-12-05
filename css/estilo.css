@@ -344,6 +344,11 @@ p {
     color: white;
     text-align: left;
 }
+
+.conocimientos-top p {
+    color: #29323c;
+    font-weight: bold;
+}
 /* FIN CONOCIMIENTOS */
 
 /* PROYECTOS */
@@ -395,6 +400,16 @@ p {
 }
 
 .card:nth-child(4) {
+    background-image: url(/imagenes/NodeSend2.PNG);
+    background-position: center center;
+}
+
+.card:nth-child(5) {
+    background-image: url(/imagenes/Mern\ Task2.PNG);
+    background-position: center center;
+}
+
+.card:nth-child(6) {
     background-position: center left;
 }
 
@@ -408,7 +423,8 @@ p {
 .card:nth-child(2):hover .card-body,
 .card:nth-child(3):hover .card-body,
 .card:nth-child(4):hover .card-body,
-.card:nth-child(5):hover .card-body {
+.card:nth-child(5):hover .card-body,
+.card:nth-child(6):hover .card-body {
     transform: translateY(0%);
     background-color: rgba(17, 17, 17, .9);
 }
@@ -425,7 +441,7 @@ p {
 }
 
 .card:nth-child(2) .card-body {
-    transform: translateY(76%);
+    transform: translateY(74%);
 }
 
 .card:nth-child(3) .card-body {
@@ -433,6 +449,14 @@ p {
 }
 
 .card:nth-child(4) .card-body {
+    transform: translateY(76%);
+}
+
+.card:nth-child(5) .card-body {
+    transform: translateY(74%);
+}
+
+.card:nth-child(6) .card-body {
     transform: translateY(76%);
 }
 
@@ -483,6 +507,12 @@ p {
 }
 #sobre .col-right p {
     margin-bottom: 20px;
+}
+
+#sobre .sobre p {
+    margin-top: 20px;
+    color: #29323c;
+    font-weight: bold;
 }
 
 /* FIN SOBRE MI */
