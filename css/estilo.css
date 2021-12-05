@@ -390,12 +390,12 @@ p {
 }
 
 .card:nth-child(2) {
-    background-image: url(/imagenes/NodeSend2.PNG);
+    background-image: url(/imagenes/Cotizador.PNG);
     background-position: center center;
 }
 
 .card:nth-child(3) {
-    background-image: url(/imagenes/Mern\ Task2.PNG);
+    background-image: url(/imagenes/Control-gastos.PNG);
     background-position: center center;
 }
 
