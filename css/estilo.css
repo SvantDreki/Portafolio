@@ -244,6 +244,7 @@ p {
     animation-delay: 2s;
 }
 #hero h2:nth-child(3) {
+    font-weight: 500;
     animation: revelar_text_nombre .1s ease forwards;
     animation-delay: 3s;
 }
@@ -546,7 +547,6 @@ p {
 @keyframes revelar_text_nombre {
     100% {
         color: crimson;
-        font-weight: 500;
     }
 }
 /*Fin keyframe*/
