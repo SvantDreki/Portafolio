@@ -365,9 +365,15 @@ p {
 #proyectos .proyecto-body {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 20px;
     padding: 10px;
+}
+
+@media (min-width: 780px) {
+    #proyectos .proyecto-body {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 .card {
@@ -376,13 +382,25 @@ p {
     background-size: cover;
     display: flex;
     flex-direction: column;
-    height: 550px;
+    height: 500px;
     justify-content: flex-end;
     border-radius: 15px;
     overflow: hidden;
     width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, .6);
     transition: transform .5s ease;
+    margin-bottom: 20px;
+
+}
+
+.card:last-of-type {
+    margin-bottom: 0;
+}
+
+@media (min-width: 780px) {
+    .card {
+        margin-bottom: 0;
+    }
 }
 
 .card:nth-child(1) {
